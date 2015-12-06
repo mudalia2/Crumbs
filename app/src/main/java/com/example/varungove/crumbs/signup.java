@@ -1,5 +1,6 @@
 package com.example.varungove.crumbs;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -10,20 +11,12 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
+public class signup extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.signup);
 
     }
-
-    public void signup(View view)
-    {
-        Intent intent = new Intent(MainActivity.this, signup.class);
-        startActivity(intent);
-    }
-
-
 }

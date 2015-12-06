@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#5c5b9d"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:hint="Name"
+            android:ellipsize="start"
+            android:background="@drawable/editstyle"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_height="wrap_content">
+
+
+        </EditText>
+
+        <EditText
+
+            android:id="@+id/email"
+
+            android:layout_width="wrap_content"
+            android:hint="Email Address"
+            android:ellipsize="start"
+            android:background="@drawable/editstyle"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_height="wrap_content">
+
+
+        </EditText>
+
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:hint="Password"
+            android:ellipsize="start"
+            android:background="@drawable/editstyle"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_height="wrap_content">
+
+
+        </EditText>
+
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:hint="Confirm Password"
+            android:ellipsize="start"
+            android:background="@drawable/editstyle"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_height="wrap_content">
+
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crumbs"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/linear1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Register!"
+        android:layout_below="@+id/linear1"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

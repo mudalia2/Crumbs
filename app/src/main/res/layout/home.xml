@@ -19,6 +19,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:scaleType="centerInside"
+            android:onClick="settings"
             android:background="@drawable/set"
             />
 
@@ -34,6 +35,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:scaleType="fitXY"
+            android:onClick="mail"
             android:background="@drawable/mail"/>
 
     </LinearLayout>

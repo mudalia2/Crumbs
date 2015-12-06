@@ -20,6 +20,8 @@
         android:text="HISTORY"
         android:textSize="35dp"
         android:gravity="left"
+        android:clickable="true"
+        android:onClick="history"
         android:background="#d8d8d8"
         />
 

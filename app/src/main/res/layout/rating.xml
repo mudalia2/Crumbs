@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#5c5b9d">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d8d8d8"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/nameres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ambar India"
+                android:textSize="35dp"
+                android:layout_centerHorizontal="true"
+                />
+
+            <RatingBar
+                android:id="@+id/star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="5"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/nameres"
+                android:stepSize="1.0"/>
+
+
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:hint="Add a comment..."
+                android:ellipsize="start"
+                android:background="@drawable/editstyle"
+                android:layout_below="@+id/star"
+                android:layout_centerHorizontal="true"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/comment"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:gravity="left"
+                    android:layout_height="25dp"
+                    android:src="@drawable/camera"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:gravity="left"
+                    android:layout_height="25dp"
+                    android:src="@drawable/gallery"/>
+
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit!"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="20dp"/>
+
+            </LinearLayout> <!-- Gallery icons -->
+
+
+
+
+        </RelativeLayout> <!-- Fills parent-->
+
+
+
+
+    </LinearLayout> <!-- Grey middle box Screen-->
+
+</RelativeLayout> <!-- Whole Screen-->

@@ -13,19 +13,19 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class settings extends AppCompatActivity{
+public class history extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.settings);
+        setContentView(R.layout.history);
 
 
     }
 
-    public void history(View view)
+    public void rating(View view)
     {
-        Intent intent = new Intent(settings.this, history.class);
+        Intent intent = new Intent(history.this, rating.class);
         startActivity(intent);
     }
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#5c5b9d"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_marginTop="10dp"
+        android:hint="Tap to Add Friends..."
+        android:ellipsize="start"
+        android:background="@drawable/editstyle"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"/>
+
+</LinearLayout>

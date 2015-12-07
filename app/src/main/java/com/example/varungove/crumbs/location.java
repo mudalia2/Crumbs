@@ -13,26 +13,14 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class settings extends AppCompatActivity{
+public class location extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.settings);
+        setContentView(R.layout.location);
 
 
-    }
-
-    public void history(View view)
-    {
-        Intent intent = new Intent(settings.this, history.class);
-        startActivity(intent);
-    }
-
-    public void location(View view)
-    {
-        Intent intent = new Intent(settings.this, location.class);
-        startActivity(intent);
     }
 
 

@@ -31,6 +31,8 @@
         android:text="CHANGE LOCATION"
         android:textSize="35dp"
         android:gravity="left"
+        android:clickable="true"
+        android:onClick="location"
         android:background="#d8d8d8"
         />
 

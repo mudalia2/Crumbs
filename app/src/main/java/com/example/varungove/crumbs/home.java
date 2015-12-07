@@ -44,4 +44,10 @@ public class home extends AppCompatActivity{
         Intent intent = new Intent(home.this, settings.class);
         startActivity(intent);
     }
+
+    public void invite(View view)
+    {
+        Intent intent = new Intent(home.this, invite.class);
+        startActivity(intent);
+    }
 }

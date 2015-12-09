@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:facebook="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:background="#5c5b9d"
+    android:background="#dfcdb6"
     android:layout_height="match_parent" >
 
 
@@ -26,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Crumbs"
+        
         android:textSize="40dp"
         android:layout_centerHorizontal="true"
         android:layout_above="@id/username"/>
@@ -51,7 +52,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="GO!"
+        android:background="@drawable/buttons"
         android:onClick="home"
+        android:textColor="#ffffff"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"/>
 
@@ -80,6 +83,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Register!"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttons"
         android:layout_below="@+id/or"
         android:onClick="signup"
         android:layout_centerHorizontal="true"/>

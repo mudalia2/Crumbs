@@ -37,13 +37,14 @@
 
         <EditText
             android:id="@+id/name"
-            android:layout_width="wrap_content"
+            android:layout_width="170dp"
             android:hint="Name"
             android:ellipsize="start"
             android:background="@drawable/editstyle"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingTop="4dp"
+            android:layout_marginBottom="5dp"
             android:paddingBottom="4dp"
             android:layout_height="wrap_content">
 
@@ -54,9 +55,10 @@
 
             android:id="@+id/email"
 
-            android:layout_width="wrap_content"
+            android:layout_width="170dp"
             android:hint="Email Address"
             android:ellipsize="start"
+            android:layout_marginBottom="5dp"
             android:background="@drawable/editstyle"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
@@ -69,8 +71,9 @@
 
         <EditText
 
-            android:layout_width="wrap_content"
+            android:layout_width="170dp"
             android:hint="Password"
+            android:layout_marginBottom="5dp"
             android:ellipsize="start"
             android:background="@drawable/editstyle"
             android:paddingLeft="10dp"
@@ -84,7 +87,7 @@
 
         <EditText
 
-            android:layout_width="wrap_content"
+            android:layout_width="170dp"
             android:hint="Confirm Password"
             android:ellipsize="start"
             android:background="@drawable/editstyle"

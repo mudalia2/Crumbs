@@ -44,6 +44,7 @@
 
 
     <RelativeLayout
+        android:id="@+id/invite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#d8d8d8">
@@ -83,11 +84,12 @@
             android:layout_marginBottom="2dp"
             android:textColor="#ffffff"
             android:background="@drawable/buttonsgreen"
-            android:onClick="rating"
+            android:onClick="accept"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"/>
 
         <Button
+            android:id="@+id/no1"
             android:layout_below="@+id/yes1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -95,13 +97,14 @@
             android:layout_marginRight="5dp"
             android:textColor="#ffffff"
             android:background="@drawable/buttonsred"
-            android:onClick="rating"
+            android:onClick="decline"
             android:layout_alignParentRight="true"/>
 
 
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/invite1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#d8d8d8">
@@ -142,11 +145,12 @@
             android:layout_marginTop="2dp"
             android:textColor="#ffffff"
             android:background="@drawable/buttonsgreen"
-            android:onClick="rating"
+            android:onClick="accept"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"/>
 
         <Button
+            android:id="@+id/no"
             android:layout_below="@+id/yes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -154,7 +158,7 @@
             android:layout_marginRight="5dp"
             android:textColor="#ffffff"
             android:background="@drawable/buttonsred"
-            android:onClick="rating"
+            android:onClick="decline"
             android:layout_alignParentRight="true"/>
 
 

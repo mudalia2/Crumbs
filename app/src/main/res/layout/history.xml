@@ -57,6 +57,7 @@
             android:text="RATE >"
             android:background="@drawable/buttons"
             android:onClick="rating"
+            android:layout_marginRight="5dp"
             android:textColor="#ffffff"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"/>
@@ -90,6 +91,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="RATE >"
+            android:layout_marginRight="5dp"
             android:textColor="#ffffff"
             android:background="@drawable/buttons"
             android:onClick="rating"

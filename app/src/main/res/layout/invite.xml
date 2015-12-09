@@ -2,8 +2,45 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:background="#5c5b9d"
+    android:background="#dfcdb6"
     android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#e55050"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+
+        >
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:onClick="settings"
+            android:background="@drawable/icon"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:text="Crumbs"/>
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+
+            />
+
+    </LinearLayout>
 
     <EditText
         android:id="@+id/search"

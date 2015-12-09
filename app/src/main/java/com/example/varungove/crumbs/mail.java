@@ -24,4 +24,11 @@ public class mail extends AppCompatActivity{
     }
 
 
+    public void settings(View view)
+    {
+        Intent intent = new Intent(mail.this, settings.class);
+        startActivity(intent);
+    }
+
+
 }

@@ -9,12 +9,13 @@
 
     <EditText
         android:id="@+id/username"
-        android:layout_width="wrap_content"
+        android:layout_width="170dp"
         android:hint="Username"
         android:ellipsize="start"
         android:background="@drawable/editstyle"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
+        android:layout_marginBottom="5dp"
         android:paddingTop="4dp"
         android:paddingBottom="4dp"
         android:layout_above="@+id/password"
@@ -26,14 +27,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Crumbs"
-
-        android:textSize="40dp"
+        android:layout_marginTop="15dp"
+        android:textSize="55dp"
+        android:textColor="#e55050"
         android:layout_centerHorizontal="true"
-        android:layout_above="@id/username"/>
+        android:layout_alignParentTop="true"/>
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="wrap_content"
+        android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"

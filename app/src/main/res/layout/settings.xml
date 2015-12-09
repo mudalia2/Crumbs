@@ -32,9 +32,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="HISTORY"
-        android:textSize="35dp"
+        android:text="History"
+        android:textSize="30dp"
         android:gravity="left"
+
         android:clickable="true"
         android:onClick="history"
         android:background="#d8d8d8"
@@ -43,8 +44,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="CHANGE LOCATION"
-        android:textSize="35dp"
+        android:text="Change Location"
+        android:textSize="30dp"
         android:gravity="left"
         android:clickable="true"
         android:onClick="location"
@@ -54,8 +55,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="FEEDBACK"
-        android:textSize="35dp"
+        android:text="Feedback"
+        android:textSize="30dp"
         android:gravity="left"
         android:background="#d8d8d8"
         />
@@ -63,8 +64,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="SHARE CRUMBS"
-        android:textSize="35dp"
+        android:text="Share Crumbs"
+        android:textSize="30dp"
         android:gravity="left"
         android:background="#d8d8d8"
         />

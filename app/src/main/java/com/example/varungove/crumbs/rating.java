@@ -1,6 +1,8 @@
 package com.example.varungove.crumbs;
 
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -21,6 +23,25 @@ public class rating extends AppCompatActivity{
         setContentView(R.layout.rating);
 
 
+    }
+
+    public void rate(View view)
+    {
+
+        AlertDialog.Builder dlgAlert  = new AlertDialog.Builder(this);
+        dlgAlert.setMessage("Thank You!");
+        dlgAlert.setPositiveButton("OK", null);
+        dlgAlert.setCancelable(true);
+        dlgAlert.create().show();
+
+        dlgAlert.setPositiveButton("Ok",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        //dismiss the dialog
+                    }
+                });
+        Intent intent = new Intent(rating.this, history.class);
+        startActivity(intent);
     }
 
 

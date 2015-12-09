@@ -81,6 +81,7 @@
                     android:layout_height="wrap_content"
                     android:text="Submit!"
                     android:textColor="#e55050"
+                    android:onClick="rate"
                     android:background="@drawable/buttons2"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"

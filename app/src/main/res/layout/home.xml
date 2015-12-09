@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".LongPress"
-    android:background="#5c5b9d">
+    android:background="#dfcdb6">
 
     <LinearLayout
         android:id="@+id/toolbar"
@@ -17,12 +17,12 @@
                                 >
 
         <ImageView
-            android:layout_width="20dp"
+            android:layout_width="1dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:scaleType="centerInside"
             android:onClick="settings"
-            android:background="@drawable/set"
+            android:background="@drawable/icon"
             />
 
         <TextView
@@ -34,12 +34,12 @@
             android:layout_weight="1"
             android:text="Crumbs"/>
         <ImageView
-            android:layout_width="20dp"
+            android:layout_width="1dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:scaleType="fitXY"
+            android:scaleType="centerInside"
             android:onClick="mail"
-            android:background="@drawable/mail"/>
+            android:background="@drawable/micon"/>
 
     </LinearLayout>
 
@@ -78,6 +78,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="GO!"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttons"
         android:layout_below="@+id/pics"
         android:onClick="invite"
         android:layout_centerHorizontal="true"
@@ -91,6 +93,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Preferences!"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/buttons"
         android:onClick="preferences"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"/>

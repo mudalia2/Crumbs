@@ -137,5 +137,11 @@ public class invite extends AppCompatActivity{
                 .show();
 
     }
+
+    public void settings(View view)
+    {
+        Intent intent = new Intent(invite.this, settings.class);
+        startActivity(intent);
+    }
 }
 

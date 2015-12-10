@@ -1,7 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="#5c5b9d"
+    android:background="#dfcdb6"
+    android:weightSum="5"
+    android:orientation="vertical"
     android:layout_height="match_parent">
 
-</LinearLayout>
+    <View
+        android:layout_height="2dip"
+        android:layout_width="match_parent"
+        android:background="#FF909090" />
+        <!-- Res INFO-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chipotle"
+                android:textSize="30dp"/>
+
+
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/dollar1"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:text="$"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:background="#cfb593"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mexican"
+                android:textSize="30dp"/>
+
+            <ImageView
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:src="@drawable/star"/>
+
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_height="2dip"
+        android:layout_width="match_parent"
+        android:background="#FF909090" />
+
+    <!-- Reviews Layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reviews"
+            android:textSize="30dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_height="2dip"
+        android:layout_width="match_parent"
+        android:background="#FF909090" />
+
+    <!-- Images Layout-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout> <!-- Whole Screen-->

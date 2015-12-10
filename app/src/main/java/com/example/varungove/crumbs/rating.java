@@ -39,7 +39,7 @@ public class rating extends AppCompatActivity{
                     public void onClick(DialogInterface dialog, int which) {
                         //dismiss the dialog
                     }
-                });
+                }); 
         Intent intent = new Intent(rating.this, history.class);
         startActivity(intent);
     }

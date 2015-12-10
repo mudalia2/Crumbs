@@ -41,6 +41,11 @@
         android:background="#d8d8d8"
         />
 
+    <View
+        android:layout_height="2dip"
+        android:layout_width="match_parent"
+        android:background="#FF909090" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
@@ -51,6 +56,10 @@
         android:onClick="location"
         android:background="#d8d8d8"
         />
+    <View
+        android:layout_height="2dip"
+        android:layout_width="match_parent"
+        android:background="#FF909090" />
 
     <TextView
         android:layout_width="match_parent"
@@ -61,6 +70,11 @@
         android:background="#d8d8d8"
         />
 
+    <View
+        android:layout_height="2dip"
+        android:layout_width="match_parent"
+        android:background="#FF909090" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
@@ -69,6 +83,11 @@
         android:gravity="left"
         android:background="#d8d8d8"
         />
+
+    <View
+        android:layout_height="2dip"
+        android:layout_width="match_parent"
+        android:background="#FF909090" />
 
 
 </LinearLayout>

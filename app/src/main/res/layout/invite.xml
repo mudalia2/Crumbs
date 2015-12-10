@@ -70,6 +70,7 @@
             android:paddingTop="4dp"
             android:paddingBottom="4dp"
             android:layout_weight="3"
+            android:gravity="center"
             android:background="@drawable/editstyle"
             android:text="blah"/>
         
@@ -78,7 +79,11 @@
             android:layout_height="wrap_content"
             android:paddingTop="4dp"
             android:paddingBottom="4dp"
+            android:background="@drawable/buttons"
             android:layout_weight="2"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
             android:onClick="setDate"
             android:text="Change Date"/>
 
@@ -97,6 +102,7 @@
             android:paddingTop="4dp"
             android:paddingBottom="4dp"
             android:layout_weight="3"
+            android:gravity="center"
             android:background="@drawable/editstyle"
             android:text="blah"/>
 
@@ -105,7 +111,11 @@
             android:layout_height="wrap_content"
             android:paddingTop="4dp"
             android:paddingBottom="4dp"
+            android:background="@drawable/buttons"
             android:layout_weight="2"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
             android:onClick="setTime"
             android:text="Change Time"/>
 
@@ -119,6 +129,8 @@
         android:paddingBottom="4dp"
         android:onClick="sendInvites"
         android:text="Send Invites!"
+        android:background="@drawable/buttons"
+        android:textColor="#ffffff"
         android:layout_gravity="center_horizontal" />
 
 </LinearLayout>

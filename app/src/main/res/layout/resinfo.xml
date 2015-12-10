@@ -68,6 +68,10 @@
             android:layout_height="wrap_content"
             android:text="Reviews"
             android:textSize="30dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yelp"/>
 
 
     </LinearLayout>

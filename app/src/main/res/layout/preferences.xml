@@ -266,6 +266,8 @@
                 android:layout_height="wrap_content"
                 android:text="1 mile"
                 android:gravity="center"
+                android:onClick="dis1"
+                android:clickable="true"
                 android:layout_weight="1"
                 android:textSize="25dp"
                 android:background="#cfb593"/>
@@ -282,6 +284,8 @@
                 android:text="5 miles"
                 android:gravity="center"
                 android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="dis2"
                 android:textSize="25dp"
                 android:background="#cfb593"/>
 
@@ -295,7 +299,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="10 miles"
+                android:clickable="true"
                 android:gravity="center"
+                android:onClick="dis3"
                 android:layout_weight="1"
                 android:textSize="25dp"
                 android:background="#cfb593"/>

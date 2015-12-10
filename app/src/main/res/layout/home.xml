@@ -4,6 +4,8 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".LongPress"
+    android:clickable="true"
+    android:id="@+id/lat"
     android:background="#dfcdb6">
 
     <LinearLayout
@@ -64,10 +66,14 @@
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="250dp"
+        tools:context=".LongPress"
+
         android:layout_below="@id/search">
         <android.support.v4.view.ViewPager
-
+            android:clickable="true"
             android:layout_width="match_parent"
+            tools:context=".LongPress"
+
             android:layout_height="match_parent"
             android:id="@+id/viewpager_layout"/>
     </LinearLayout>

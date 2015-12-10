@@ -57,4 +57,68 @@
         android:layout_below="@+id/toolbar"
         android:layout_centerHorizontal="true"/>
 
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/dateView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_weight="3"
+            android:background="@drawable/editstyle"
+            android:text="blah"/>
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_weight="2"
+            android:onClick="setDate"
+            android:text="Change Date"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/timeView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_weight="3"
+            android:background="@drawable/editstyle"
+            android:text="blah"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_weight="2"
+            android:onClick="setTime"
+            android:text="Change Time"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:onClick="sendInvites"
+        android:text="Send Invites!"
+        android:layout_gravity="center_horizontal" />
+
 </LinearLayout>

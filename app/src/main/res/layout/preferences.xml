@@ -2,6 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:background="#dfcdb6"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
     android:orientation="vertical"
     android:layout_height="match_parent">
 
@@ -136,7 +138,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
             android:orientation="vertical"
-            android:background="@drawable/editstyle">
+            android:background="@drawable/textview_bg">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

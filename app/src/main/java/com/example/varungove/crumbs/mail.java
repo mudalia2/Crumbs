@@ -59,8 +59,8 @@ public class mail extends AppCompatActivity{
                 RelativeLayout x = (RelativeLayout) findViewById(R.id.invite);
                 x.setVisibility(View.INVISIBLE);
                 break;
-            case(R.id.yes):
-                RelativeLayout y = (RelativeLayout) findViewById(R.id.invite1);
+            case(R.id.yes1_a):
+                RelativeLayout y = (RelativeLayout) findViewById(R.id.invite_a);
                 y.setVisibility(View.INVISIBLE);
                 break;
         }//end of switch
@@ -87,8 +87,8 @@ public class mail extends AppCompatActivity{
                     RelativeLayout x = (RelativeLayout) findViewById(R.id.invite);
                     x.setVisibility(View.INVISIBLE);
                         break;
-                case(R.id.no):
-                    RelativeLayout y = (RelativeLayout) findViewById(R.id.invite1);
+                case(R.id.no1_a):
+                    RelativeLayout y = (RelativeLayout) findViewById(R.id.invite_a);
                     y.setVisibility(View.INVISIBLE);
                     break;
             }//end of switch

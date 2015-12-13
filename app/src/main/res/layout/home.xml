@@ -6,6 +6,8 @@
     tools:context=".LongPress"
     android:clickable="true"
     android:id="@+id/lat"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
     android:background="#dfcdb6">
 
     <LinearLayout
@@ -19,10 +21,12 @@
                                 >
 
         <ImageView
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
             android:layout_weight="1"
-            android:scaleType="centerInside"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
             android:onClick="settings"
             android:background="@drawable/icon"
             />
@@ -36,10 +40,12 @@
             android:layout_weight="1"
             android:text="Crumbs"/>
         <ImageView
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:scaleType="centerInside"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="4dp"
+            android:scaleType="fitXY"
             android:onClick="mail"
             android:background="@drawable/micon"/>
 
@@ -55,7 +61,7 @@
         android:paddingBottom="4dp"
         android:hint="Search..."
         android:ellipsize="start"
-        android:background="@drawable/editstyle"
+        android:background="@drawable/edit"
         android:layout_below="@+id/toolbar"
         android:layout_centerHorizontal="true"/>
 

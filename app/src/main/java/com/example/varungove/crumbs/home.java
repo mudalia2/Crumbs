@@ -35,7 +35,7 @@ public class home extends AppCompatActivity{
         MyPagerAdapter adapter = new MyPagerAdapter();
         ViewPager myPager = (ViewPager) findViewById(R.id.viewpager_layout);
         myPager.setAdapter(adapter);
-        myPager.setCurrentItem(1);
+        myPager.setCurrentItem(0);
 
         //Trying to open resinfo through longpress on images
 

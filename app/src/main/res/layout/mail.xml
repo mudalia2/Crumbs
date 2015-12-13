@@ -16,10 +16,12 @@
         >
 
         <ImageView
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
             android:layout_weight="1"
-            android:scaleType="centerInside"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
             android:onClick="settings"
             android:background="@drawable/icon"
             />
@@ -47,6 +49,7 @@
         android:id="@+id/invite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
         android:background="#d8d8d8">
 
         <TextView
@@ -56,28 +59,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Invitation from Vikram"
-            android:textSize="20dp"
+            android:textSize="17dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"/>
         <TextView
             android:id="@+id/ss"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="16dp"
             android:text="Chipotle"
             android:layout_below="@+id/res"/>
         <TextView
             android:layout_width="wrap_content"
 
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="16dp"
             android:text="Dec 17th, 2015 @ 6pm"
             android:layout_below="@+id/ss"/>
 
         <Button
             android:id="@+id/yes1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:text="Accept"
             android:layout_marginTop="2dp"
             android:layout_marginRight="5dp"
@@ -92,9 +95,10 @@
             android:id="@+id/no1"
             android:layout_below="@+id/yes1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:text="Decline"
             android:layout_marginRight="5dp"
+            android:layout_marginBottom="2dp"
             android:textColor="#ffffff"
             android:background="@drawable/buttonsred"
             android:onClick="decline"
@@ -109,45 +113,45 @@
         android:background="#FF909090" />
 
     <RelativeLayout
-        android:id="@+id/invite1"
+        android:id="@+id/invite_a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
         android:background="#d8d8d8">
 
         <TextView
-            android:id="@+id/resn"
+            android:id="@+id/res_a"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Invitation From Ankush"
-            android:textSize="20dp"
+            android:text="Invitation from Ankush"
+            android:textSize="17dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"/>
         <TextView
-            android:id="@+id/sss"
+            android:id="@+id/ss_a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="16dp"
             android:text="Hooters"
-            android:layout_below="@+id/resn"/>
-
+            android:layout_below="@+id/res_a"/>
         <TextView
             android:layout_width="wrap_content"
 
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="Dec 19th, 2015 @ 8pm"
-            android:layout_below="@+id/sss"/>
+            android:textSize="16dp"
+            android:text="Dec 19th, 2015 @ 9pm"
+            android:layout_below="@+id/ss_a"/>
 
         <Button
-            android:id="@+id/yes"
+            android:id="@+id/yes1_a"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:text="Accept"
+            android:layout_marginTop="2dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="2dp"
-            android:layout_marginTop="2dp"
             android:textColor="#ffffff"
             android:background="@drawable/buttonsgreen"
             android:onClick="accept"
@@ -155,12 +159,13 @@
             android:layout_alignParentRight="true"/>
 
         <Button
-            android:id="@+id/no"
-            android:layout_below="@+id/yes"
+            android:id="@+id/no1_a"
+            android:layout_below="@+id/yes1_a"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:text="Decline"
             android:layout_marginRight="5dp"
+            android:layout_marginBottom="2dp"
             android:textColor="#ffffff"
             android:background="@drawable/buttonsred"
             android:onClick="decline"
@@ -168,6 +173,7 @@
 
 
     </RelativeLayout>
+
 
     <View
         android:layout_height="2dip"
